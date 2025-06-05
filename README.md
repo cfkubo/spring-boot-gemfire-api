@@ -141,6 +141,8 @@ docker-compose up
 
 6. Access the Swagger UI at `http://localhost:8080/swagger-ui/` to test the API endpoints.
 
+7. Access the open API docs at `http://localhost:8881/v3/api-docs`
+
 ## Dependencies
 
 This project uses the following dependencies:
