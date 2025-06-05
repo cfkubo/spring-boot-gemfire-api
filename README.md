@@ -53,6 +53,10 @@ curl -X PUT "http://localhost:8881/api/put?key=myKeyarul&value=demo"
 ```
 
 ```
+for i in {1..1000} ; do curl -X PUT "http://localhost:8881/api/put?key=myKeyarul$i&value=demo$i" ; echo "Executed: curl -X PUT \"http://localhost:8881/api/put?key=myKeyarul$i&value=demo$i\"" ; echo "" ; done
+```
+
+```
 curl "http://localhost:8881/api/get?key=myKeyarul"
 ```
 ## Getting Started
