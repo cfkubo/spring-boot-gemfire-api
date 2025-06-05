@@ -14,6 +14,14 @@ public class WelcomeController {
                 <li>PUT data: <code>PUT /api/put?key=yourKey&amp;value=yourValue</code></li>
                 <li>GET data: <code>GET /api/get?key=yourKey</code></li>
             </ul>
+
+            <h3> curl -X PUT "http://localhost:8881/api/put?key=myKeyarul&value=demo"
+
+
+                curl "http://localhost:8881/api/get?key=myKeyarul"
+                </h3>
+
+
             <p>Swagger UI: <a href="/swagger-ui.html">/swagger-ui.html</a></p>
             """;
         return ResponseEntity.ok().header("Content-Type", "text/html").body(msg);
