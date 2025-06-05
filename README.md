@@ -44,7 +44,17 @@ springboot-gemfire-api
 - **GET /get**: Retrieve data from Gemfire.
 
 
+```
 create region --name=exampleRegion --type=REPLICATE
+```
+
+```
+curl -X PUT "http://localhost:8881/api/put?key=myKeyarul&value=demo"
+```
+
+```
+curl "http://localhost:8881/api/get?key=myKeyarul"
+```
 
 ## Setup Instructions
 
@@ -77,4 +87,4 @@ This project uses the following dependencies:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.# spring-boot-gemfire-api
+This project is licensed under the MIT License. See the LICENSE file for more details.
