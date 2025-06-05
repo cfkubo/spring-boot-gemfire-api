@@ -1,6 +1,6 @@
 # Spring Boot Gemfire API
 
-This project is a Spring Boot application that provides a RESTful API for performing operations on Apache Gemfire. It exposes endpoints for storing and retrieving data, and includes support for Spring Actuator, Swagger, and OpenAPI for easy testing and monitoring.
+This project is a Spring Boot application that provides a RESTful API for performing operations on Broadcom/VMware Gemfire. It exposes endpoints for storing and retrieving data, and includes support for Spring Actuator, Swagger, and OpenAPI for easy testing and monitoring.
 
 ## Project Structure
 
