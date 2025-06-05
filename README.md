@@ -109,23 +109,37 @@ Maven: Add the following to the **.m2/settings.xml** file. Replace MY-USERNAME@e
 
 ## Setup Instructions
 
-1. Clone the repository:
+1. Setup Gemfire in docker
+
+```
+curl -O https://raw.githubusercontent.com/gemfire/gemfire-examples/main/docker-compose.yaml
+```
+2. docker compose up
+
+```
+docker-compose up
+```
+
+3. Clone the repository:
+
    ```
    git clone https://github.com/cfkubo/spring-boot-gemfire-api
    cd spring-boot-gemfire-api
    ```
 
-2. Build the project using Maven:
+4. Build the project using Maven:
+
    ```
    mvn clean install
    ```
 
-3. Run the application:
+5. Run the application:
+
    ```
    mvn spring-boot:run
    ```
 
-4. Access the Swagger UI at `http://localhost:8080/swagger-ui/` to test the API endpoints.
+6. Access the Swagger UI at `http://localhost:8080/swagger-ui/` to test the API endpoints.
 
 ## Dependencies
 
