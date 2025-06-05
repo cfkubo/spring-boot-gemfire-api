@@ -57,8 +57,10 @@ curl "http://localhost:8881/api/get?key=myKeyarul"
 ```
 ## Getting Started
 
-### Prerequisites
 
+
+### Prerequisites
+- gemfire up and running [https://gemfire.dev/quickstart/docker](https://gemfire.dev/quickstart/docker)
 - Java 21 
 - Maven
 - Set Broadcom Maven Repository user credentials See https://gemfire.dev/quickstart/spring
