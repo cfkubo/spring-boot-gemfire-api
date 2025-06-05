@@ -16,8 +16,8 @@ public class WelcomeController {
             </ul>
 
             <h3> curl -X PUT "http://localhost:8881/api/put?key=myKeyarul&value=demo"
-
-
+  </h3>
+          <h3>
                 curl "http://localhost:8881/api/get?key=myKeyarul"
                 </h3>
 
