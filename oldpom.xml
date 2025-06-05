@@ -1,0 +1,119 @@
+<!-- <project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>springboot-gemfire-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>springboot-gemfire-api</name>
+    <description>Spring Boot application with Gemfire integration</description>
+
+    <properties>
+       
+        <spring.cloud.version>2021.0.0</spring.cloud.version>
+        <java.version>21</java.version>
+        <gemfire.version>10.0.0</gemfire.version>
+        <spring-boot.version>3.5.0</spring-boot.version>
+        <gemfire.version>10.0.0</gemfire.version>
+        <spring-gemfire.version>10.1.2</spring-gemfire.version>
+        <spring-cloud.version>1.5.22.RELEASE</spring-cloud.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <!-- <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gemfire</artifactId>
+            <version>${spring-cloud.version}</version>
+        </dependency> -->
+
+        <!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-gemfire</artifactId>
+            <version>1.5.22.RELEASE</version>
+        </dependency> -->
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.5.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring-boot.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    <dependency>
+        <groupId>com.vmware.gemfire</groupId>
+        <artifactId>spring-boot-3.0-gemfire-10.0</artifactId>
+        <version>1.0.0</version>
+
+    </dependency>
+    <dependency>
+        <groupId>com.vmware.gemfire</groupId>
+        <artifactId>gemfire-core</artifactId>
+        <version>${gemfire.version}</version>
+    </dependency>
+    <!--if using continuous queries-->
+    <dependency>
+        <groupId>com.vmware.gemfire</groupId>
+        <artifactId>gemfire-cq</artifactId>
+        <version>${gemfire.version}</version>
+    </dependency>
+
+
+        <!-- <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency> -->
+
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>spring-repo</id>
+            <url>https://repo.spring.io/release</url>
+        </repository>
+
+        <repository>
+            <id>gemfire-release-repo</id>
+            <name>Broadcom GemFire Release Repository</name>
+            <url>https://packages.broadcom.com/artifactory/gemfire/</url>
+        </repository>
+
+    </repositories>
+
+</project> -->
+
