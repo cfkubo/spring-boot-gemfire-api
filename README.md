@@ -61,7 +61,7 @@ curl "http://localhost:8881/api/get?key=myKeyarul"
 1. Clone the repository:
    ```
    git clone https://github.com/cfkubo/spring-boot-gemfire-api
-   cd springboot-gemfire-api
+   cd spring-boot-gemfire-api
    ```
 
 2. Build the project using Maven:
